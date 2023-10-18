@@ -9,6 +9,7 @@ public class Color
         if(ch=='V')
         {
             System.out.println("Violet");
+            
         }
         else if(ch=='I')
         {
@@ -36,7 +37,8 @@ public class Color
         }
         else
         {
-            System.out.println(-1);
+            System.out.println("-1");
         }
+        
     }
 }
