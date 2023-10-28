@@ -1,16 +1,15 @@
 import java.util.Scanner;
-public class Fact
+public class OddnaturalNumber
 {
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        int a,i;
-        a=sc.nextInt();
-        for(i=1;i<=a;i++)
+        int n=sc.nextInt();
+        for(int i=1;i<n;i++)
         {
             if(i%2!=0)
             {
-                System.out.printf("%d ",i);
+                System.out.print(i+" ");
             }
         }
     }
