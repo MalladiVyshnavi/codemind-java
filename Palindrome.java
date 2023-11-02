@@ -15,11 +15,11 @@ public class Palin
         }
         if(temp==sum)
         {
-            System.out.println("True");
+            System.out.println("Palindrome");
         }
         else
         {
-            System.out.println("False");
+            System.out.println("Not Palindrome");
         }
     }
     
