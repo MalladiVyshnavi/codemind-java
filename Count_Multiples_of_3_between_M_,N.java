@@ -1,20 +1,19 @@
 import java.util.Scanner;
-public class Fact
+public class Multiple
 {
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        int a,b,i,c=0;
-        a=sc.nextInt();
-        b=sc.nextInt();
-        for(i=a;i<=b;i++)
+        int m=sc.nextInt();
+        int n=sc.nextInt();
+        int count=0;
+        for(int i=m;i<=n;i++)
         {
             if(i%3==0)
             {
-                c=c+1;
+                count++;
             }
         }
-        System.out.printf("%d ",c);
-        
+        System.out.println(count);
     }
 }
