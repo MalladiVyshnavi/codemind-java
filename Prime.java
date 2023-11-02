@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Fact
+public class Prime
 {
     public static void main(String[] args)
     {
